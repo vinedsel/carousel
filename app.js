@@ -3,6 +3,8 @@
 
 $(document).ready(function() {
 
+$("#myCarousel").carousel();
+
   // Cycles to the previous item
 
   $(".prev-slide").click(function() {

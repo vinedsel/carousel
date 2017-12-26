@@ -1,3 +1,28 @@
 body {
-  color: olive;
+  background-color: olive;
+}
+
+#w-engine {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  margin-bottom: -3px;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 45pt;
+  color: #222629;
+}
+
+#line {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
+  color: #222629;
+}
+
+#myCarousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
