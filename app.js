@@ -5,18 +5,6 @@ $(document).ready(function() {
 
 $("#myCarousel").carousel();
 
-  // Cycles to the previous item
-
-  $(".prev-slide").click(function() {
-    $("#myCarousel").carousel('prev');
-  });
-
-  // Cycles to the next item
-
-  $(".next-slide").click(function() {
-    $("#myCarousel").carousel('next');
-  });
-
   // Cycles the carousel to a particular frame
 
   $(".slide-one").click(function() {
@@ -50,4 +38,16 @@ $("#myCarousel").carousel();
   $(".slide-eight").click(function() {
     $("#myCarousel").carousel(7);
   });
+});
+
+// Cycles to the previous item
+
+$(".prev-slide").click(function() {
+  $("#myCarousel").carousel('prev');
+});
+
+// Cycles to the next item
+
+$(".next-slide").click(function() {
+  $("#myCarousel").carousel('next');
 });
